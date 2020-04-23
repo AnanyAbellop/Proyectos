@@ -1,0 +1,62 @@
+body{
+    padding: 100px 100px;
+    font-family: 'Handlee', cursive;
+}
+
+.Cuadro_Principal h1{
+    font-size: 35px;
+    
+    }
+.Cuadro_Principal{
+    width:400px;
+    height: 300px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    max-width: 70px;
+    float: right;
+    box-align: center;
+}
+.cabeza{
+    overflow: hidden;
+    width: 400px; 
+    height:70px;
+    float:left;
+    padding: 5px 5px;
+}
+.contenido{
+    width: 50%;
+    float:left;
+    height:200px;
+    overflow: hidden;
+}
+
+.input{
+    float:right;
+    border: none;
+    width:50%;
+    display:block;
+    font-size:18px;
+    text-align: center;
+   
+}
+.pie{
+
+    position: absolute;
+    right: 28%;
+    bottom: 10%;
+}
+.boton{
+    text-decoration: none;
+    font-size:20px;
+    display: inline-block;
+    background: grey;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding-block-end: -50%;
+}
